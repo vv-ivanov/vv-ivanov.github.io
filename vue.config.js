@@ -34,48 +34,4 @@ module.exports = {
     process.env.NODE_ENV === "production" ? process.env.VUE_APP_BASEPATH : "/", //"./",
   productionSourceMap: true,
   assetsDir: "./assets",
-  pwa: {
-    // configure the workbox plugin
-    manifestPath: "icons/manifest.json",
-    themeColor: "#f51549",
-    iconPaths: {
-      favicon16: "icons/favicon-16x16.png",
-      favicon32: "icons/favicon-32x32.png",
-      favicon48: "icons/favicon-48x48.png",
-      appleTouchIcon: "icons/apple-touch-icon-152x152.png",
-      safariMaskIcon: false,
-      msTileImage: false,
-    },
-    workboxOptions: {
-      clientsClaim: true,
-      skipWaiting: true,
-      runtimeCaching: [
-        {
-          // Cache the Google Fonts stylesheets with a stale while revalidate strategy.
-          urlPattern: new RegExp(/^https:\/\/fonts\.googleapis\.com/),
-          handler: "staleWhileRevalidate",
-          options: {
-            cacheName: "google-fonts-stylesheets",
-            // cacheableResponse: {
-            //   statuses: [0, 200]
-            // }
-          },
-        },
-        {
-          // Cache the Google Fonts webfont files with a cache first strategy for 1 year.
-          urlPattern: new RegExp(/^https:\/\/fonts\.gstatic\.com/),
-          handler: "cacheFirst",
-          options: {
-            cacheName: "google-fonts-webfonts",
-            cacheableResponse: {
-              statuses: [0, 200],
-            },
-            expiration: {
-              maxAgeSeconds: 60 * 60 * 24 * 365,
-            },
-          },
-        },
-      ],
-    },
-  },
 };
