@@ -10,7 +10,7 @@
     "lint": "vue-cli-service lint",
     "build:modern": "vue-cli-service build --modern",
     "build:server": "vue-cli-service build && npx servor dist index.html 8080",
-    "start": "docker-compose build && docker-compose up"
+    "start": "build"
   },
   "dependencies": {
     "@babel/runtime-corejs3": "^7.9.2",
