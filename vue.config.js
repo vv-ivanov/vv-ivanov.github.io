@@ -1,4 +1,4 @@
-process.env.VUE_APP_VERSION = require("./package.json").version;
+
 const path = require("path");
 
 module.exports = {
@@ -6,11 +6,6 @@ module.exports = {
   chainWebpack: (config) => {
     config.devtool("none");
     config.devServer.hot(true);
-    config.plugin("define").tap((options) => {
-      options[0]["process.env"]["VUE_APP_MODERN_BUILD"] =
-        process.env.VUE_CLI_MODERN_BUILD;
-      return options;
-    });
     config.resolve.alias.set(
       "modules",
       path.resolve(__dirname, "node_modules/")
