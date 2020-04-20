@@ -25,8 +25,7 @@ module.exports = {
       enableInSFC: true,
     },
   },
-  publicPath:
-    process.env.NODE_ENV === "production" ? process.env.VUE_APP_BASEPATH : "/", //"./",
+  publicPath:  "/dist/index.html", //"./",
   productionSourceMap: true,
   assetsDir: "./assets",
 };
