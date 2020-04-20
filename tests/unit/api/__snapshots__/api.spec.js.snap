@@ -1,0 +1,209 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`API: Users getUserData 1`] = `
+Object {
+  "data": Object {
+    "actions": Array [],
+    "data": Object {
+      "balance": "37 907 <span class=\\"rubl\\">&#8381;</span>",
+      "cnt_booking_owner": 0,
+      "complete_publication": 75,
+      "complete_publication_url": "/cabinet/objects/edit/648300/step4.html",
+      "estimated": Array [],
+      "extension": Object {
+        "menu": Array [
+          Object {
+            "name": "showOwnerInfo",
+            "title": "Информация о владельце",
+            "trigger": true,
+          },
+          Object {
+            "name": "showExtendedFilters",
+            "title": "Дополнительные фильтры",
+            "trigger": true,
+          },
+        ],
+        "rev": "15746",
+        "src": "b_panel",
+      },
+      "hint_set_mode": false,
+      "hot_cnt_to_me": 0,
+      "hot_cnt_to_me_text": "0 запросов на подбор жилья",
+      "hot_offers_cnt_my": 0,
+      "hot_offers_cnt_to_me": 0,
+      "hot_orders": Array [
+        Object {
+          "cnt": "0",
+          "dateBegin": "02.08",
+          "dateEnd": "03.08",
+          "id": "2386434",
+          "location": "Санкт-Петербург",
+        },
+      ],
+      "hotels_count": 2,
+      "invoices": Object {
+        "cnt": 12,
+        "list": Array [
+          Object {
+            "amount_format": "300 <span class=\\"rubl\\">&#8381;</span>",
+            "date_add_format": "5 августа 2019",
+            "id": "12616530",
+          },
+          Object {
+            "amount_format": "2 625 <span class=\\"rubl\\">&#8381;</span>",
+            "date_add_format": "22 июля 2019",
+            "id": "12616399",
+          },
+          Object {
+            "amount_format": "2 625 <span class=\\"rubl\\">&#8381;</span>",
+            "date_add_format": "22 июля 2019",
+            "id": "12616399",
+          },
+          Object {
+            "amount_format": "2 625 <span class=\\"rubl\\">&#8381;</span>",
+            "date_add_format": "22 июля 2019",
+            "id": "12616399",
+          },
+          Object {
+            "amount_format": "2 625 <span class=\\"rubl\\">&#8381;</span>",
+            "date_add_format": "22 июля 2019",
+            "id": "12616399",
+          },
+          Object {
+            "amount_format": "2 625 <span class=\\"rubl\\">&#8381;</span>",
+            "date_add_format": "22 июля 2019",
+            "id": "12616399",
+          },
+          Object {
+            "amount_format": "2 625 <span class=\\"rubl\\">&#8381;</span>",
+            "date_add_format": "22 июля 2019",
+            "id": "12616399",
+          },
+          Object {
+            "amount_format": "2 625 <span class=\\"rubl\\">&#8381;</span>",
+            "date_add_format": "22 июля 2019",
+            "id": "12616399",
+          },
+          Object {
+            "amount_format": "2 625 <span class=\\"rubl\\">&#8381;</span>",
+            "date_add_format": "22 июля 2019",
+            "id": "12616399",
+          },
+          Object {
+            "amount_format": "2 625 <span class=\\"rubl\\">&#8381;</span>",
+            "date_add_format": "22 июля 2019",
+            "id": "12616399",
+          },
+        ],
+      },
+      "is_nd": 0,
+      "messages": Object {
+        "exists": true,
+        "modules": Object {
+          "messages": Object {
+            "list": Array [
+              Object {
+                "date_add": "1 июня 2019",
+                "url": "/cabinet/notices/message/47426384",
+                "user_name": "Суточно.ру",
+                "user_photo": "//static.sutochno.test/doc/files/users/0/0/2/small/57d4f585bbebd.jpg",
+              },
+              Object {
+                "date_add": "1 июня 2019",
+                "url": "/cabinet/notices/message/47412970",
+                "user_name": "Суточно.ру",
+                "user_photo": "//static.sutochno.test/doc/files/users/0/0/2/small/57d4f585bbebd.jpg",
+              },
+              Object {
+                "date_add": "1 июня 2019",
+                "url": "/cabinet/notices/message/47410528",
+                "user_name": "Суточно.ру",
+                "user_photo": "//static.sutochno.test/doc/files/users/0/0/2/small/57d4f585bbebd.jpg",
+              },
+              Object {
+                "date_add": "29 мая 2019",
+                "url": "/cabinet/notices/message/47300452",
+                "user_name": "Суточно.ру",
+                "user_photo": "//static.sutochno.test/doc/files/users/0/0/2/small/57d4f585bbebd.jpg",
+              },
+              Object {
+                "date_add": "28 мая 2019",
+                "url": "/cabinet/notices/message/47266188",
+                "user_name": "Суточно.ру",
+                "user_photo": "//static.sutochno.test/doc/files/users/0/0/2/small/57d4f585bbebd.jpg",
+              },
+            ],
+            "new": 440,
+          },
+          "objects": Object {
+            "has_reviews": false,
+          },
+          "orders": Object {
+            "list": Array [
+              Object {
+                "date_add": "26 минут назад",
+                "url": "/cabinet/notices/8940798",
+                "user_name": "MAG Android",
+                "user_photo": "//static.sutochno.test/doc/files/users/4/292/155/small/5ce78c9680994.jpg",
+              },
+              Object {
+                "date_add": "36 минут назад",
+                "url": "/cabinet/notices/8940794",
+                "user_name": "Яна",
+                "user_photo": "//static.sutochno.test/doc/i/default-avatar_small.jpg",
+              },
+              Object {
+                "date_add": "14 августа 2019",
+                "url": "/cabinet/notices/8940786",
+                "user_name": "Elmira",
+                "user_photo": "//static.sutochno.test/doc/i/default-avatar_small.jpg",
+              },
+              Object {
+                "date_add": "1 августа 2019",
+                "url": "/cabinet/notices/8940604",
+                "user_name": "Яна",
+                "user_photo": "//static.sutochno.test/doc/i/default-avatar_small.jpg",
+              },
+              Object {
+                "date_add": "12 августа 2019",
+                "url": "/cabinet/notices/8940702",
+                "user_name": "Виктор",
+                "user_photo": "//static.sutochno.test/doc/files/users/0/848/400/small/5d3ae52889912.png",
+              },
+            ],
+            "new": 22,
+          },
+        },
+        "new": 462,
+      },
+      "new_orders": 0,
+      "objects": Object {
+        "favorites": 0,
+        "favorites_cities_groups": Array [],
+        "favorites_ids": Array [],
+        "text": "Нет объектов",
+      },
+      "objects_count": 3,
+      "pending_reviews_bonus": Array [],
+      "searchAppEnabled": "1",
+      "uid": null,
+      "user": Object {
+        "avatar": "//static.sutochno.test/doc/files/users/0/7/52/small/5d53f15170cfe.jpeg",
+        "id": "7052",
+        "name": "Иван",
+      },
+      "user_is_client": 153,
+      "user_is_client_loyal": 2,
+      "user_is_moder": true,
+      "user_is_newbie": false,
+      "user_is_owner": 20,
+      "user_is_superhost": false,
+    },
+    "errors": Array [],
+    "platform": "js",
+    "success": true,
+    "timestamp": 1565870612,
+    "uuid": "1536304442",
+  },
+}
+`;

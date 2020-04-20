@@ -1,0 +1,21 @@
+{
+  "allowJs":true,
+  "compilerOptions": {
+    "target": "es6",
+    "allowSyntheticDefaultImports": true,
+    "checkJs": true,
+    "types": [
+      "cypress"
+    ],
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "exclude": [
+      "node_modules"
+    ],
+    "include": [
+      "src/**/*"
+    ]
+  }
+}
